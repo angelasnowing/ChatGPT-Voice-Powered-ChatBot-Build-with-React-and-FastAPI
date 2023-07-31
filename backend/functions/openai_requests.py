@@ -1,7 +1,7 @@
 import openai
 from decouple import config
 
-from functions.database import get_recent_messages
+from backend.functions.database import get_recent_messages
 
 
 # Retrieve Enviornment Variables
